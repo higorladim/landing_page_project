@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* navbar */
+
+.navbar{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem; /* all content must have 8rem padding from borders*/
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.links ul{
+    display: flex;
+    color: #e5e7e5;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 1rem;
+}
+
+/* banner section */
+
+.banner{
+    background-color: #1f2937;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 9rem 10rem; /* all content must have 8rem padding from borders*/
+}
+
+.banner-left{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    flex: 1;
+}
+
+.banner-left>h1{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.banner-left>p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* This button repeats itself later on the call to action section */
+
+.btn-sign-up{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 125px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+}
+
+.banner-right{
+    display: flex;
+    background-color: #696969;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.banner-right>div{
+    color: #e5e7eb;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;    
+}
