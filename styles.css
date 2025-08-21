@@ -137,3 +137,31 @@ body{
     border: 0.5rem solid #3882f6;
     border-radius: 15px;
 }
+
+/* Quote section */
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    height: 500px;
+}
+
+.quote-text{
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 0 16rem; /* all content must have 8rem padding from borders*/
+}
+
+.quote-autor{
+    padding: 0 18rem; /* all content must have 8rem padding from borders*/
+    text-align: end;
+    color: #1f2937;
+}
