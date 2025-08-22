@@ -160,8 +160,43 @@ body{
     padding: 0 16rem; /* all content must have 8rem padding from borders*/
 }
 
-.quote-autor{
+.quote-author{
     padding: 0 18rem; /* all content must have 8rem padding from borders*/
     text-align: end;
     color: #1f2937;
 }
+
+/* Action section */
+
+.action{
+    display: flex;
+    height: 200px;
+    padding: 0 10rem; /* all content must have 8rem padding from borders*/
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container{
+    background-color: #3882f6;
+    height: 100px;
+    width: 100%;
+    padding: 4rem 6rem;
+    border-radius: 10px;
+    gap: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.action-container>button{
+    border: 3px solid white;
+    justify-content: center;
+    align-self: center;
+}
+
