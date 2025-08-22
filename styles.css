@@ -170,7 +170,7 @@ body{
 
 .action{
     display: flex;
-    height: 200px;
+    height: 400px;
     padding: 0 10rem; /* all content must have 8rem padding from borders*/
     justify-content: center;
     align-items: center;
@@ -198,5 +198,16 @@ body{
     border: 3px solid white;
     justify-content: center;
     align-self: center;
+}
+
+/* Footer section */
+
+footer{
+    background-color: #1f2937;
+    height: 75px;
+    color: #e5e7e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
